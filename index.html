@@ -1,11 +1,70 @@
+<!-- command / : 주석공간 : 코드의 설명을 작성하는 구간 -->
+<!-- shift option 아래화살표 : 위에 줄을 아래로 복사 (줄 복제)-->
+<!-- option 아래화살표 : 해당 줄의 줄 위치 바뀜 (줄 이동)-->
+
+<!-- 지금부터 문서의 형식은 httml(HyperText Markup Language)이다. -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    안녕하세요~!!!!!!!~~~~
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- 모바일로 잡아주는 역할 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>이성민 - FirstPr.</title>
+    <link rel="shortcut icon" href="lion.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    1 2 3 4 5
+    <!-- 안녕하세요~!!!!!!!~~~~ -->
+    블록(레고)과 인라인(인라인 스케이트)
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <span>6</span>
+    <span>7</span>
+    <span>8</span>
+    <span>9</span>
+    <span>10</span>
+
+    <div>타이틀 관련 태그(블록)</div>
+    <h1>타이틀1</h1>
+    <h2>타이틀2</h2>
+    <h3>타이틀3</h3>
+    <h4>타이틀4</h4>
+    <h5>타이틀5</h5>
+    <h6>타이틀6</h6>
+
+    <div>문단태그(블록)</div>
+    <p style="color: red">
+      서울 중에서도 강북 14개구와 강남 11개구가 모두 -0.04%로 하락세를 지속했다.
+      인천도 거래 관망세 속 매수 문의가 감소하며 전주 -0.03%에서 이번주 -0.04%로
+      하락폭이 확대됐고, 경기 지역도 -0.07% 하락폭를 유지했다.
+    </p>
+    <p style="color: orange">
+      서울 중에서도 강북 14개구와 강남 11개구가 모두 -0.04%로 하락세를 지속했다.
+      인천도 거래 관망세 속 매수 문의가 감소하며 전주 -0.03%에서 이번주 -0.04%로
+      하락폭이 확대됐고, 경기 지역도 -0.07% 하락폭를 유지했다.
+    </p>
+
+    <div>링크 태그 (인라인)</div>
+    <a href="https://www.naver.com/">네이버</a>
+    <a href="http://www.google.com" target="_blank" rel="noopener noreferrer"
+      >구글로 이동하기</a
+    >
+    <a href="mailto:gooddays4001@naver.com">메일 발송하기</a>
+    <a href="tel:01012345678">고객센터 전화걸기</a>
+    <a href="SMS:01012345678">고객센터 문자발송</a>
+
+    <div>이미지 태그 (인라인)</div>
+    <img src="lion.jpg" alt="라이언 이미지" style="width: 120px" />
+    <img src="lion.jpg" alt="라이언 이미지" style="width: 120px" />
+    <img src="lion.jpg" alt="라이언 이미지" style="width: 120px" />
+    <img src="lion.jpg" alt="라이언 이미지" style="width: 120px" />
+    <img
+      src="data:image/jpeg;base64,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"
+      alt="라이언 이미지"
+      style="width: 120px"
+    />
+  </body>
 </html>
